@@ -344,5 +344,5 @@ export const config = [
 
 #### Environment variable
 
-env
-env.local
+- env
+- env.local
