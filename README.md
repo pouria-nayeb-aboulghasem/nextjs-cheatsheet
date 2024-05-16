@@ -2,7 +2,7 @@
 
 JavaScript framework based on react library.
 
-![preview img](/preview.png)
+![preview img](/preview.jpg)
 
 ## History
     
