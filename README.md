@@ -2,6 +2,8 @@
 
 JavaScript framework based on react library.
 
+![preview img](/preview.png)
+
 ## History
     
 - Initial release: 25 oct 2016
@@ -90,6 +92,14 @@ const pathName = usePathname();
 <Link href="/" className={`${pathName === "about" ? active : nonActive}`}> Home </Link>
 ```
 
+#### Font
+        
+```js
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
+
+<div className={inter.className}> ... </div>
+```
 
 ### Server
       
@@ -119,15 +129,6 @@ function RootLayout = ({ children }: ChildrenType) => {
 }
 
 export default RootLayout;
-```
-
-#### Font
-        
-```js
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
-
-<div className={inter.className}> ... </div>
 ```
      
 #### MetaData
